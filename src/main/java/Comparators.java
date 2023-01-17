@@ -3,7 +3,16 @@
  * If we want to make programs that "do something", we're going to need to create instructions that change
  * depending on the current state of the program.
  * Therefore, we're inevitably going to run into boolean expressions (ie true/false statements).
- * Let's start with the different ways to compare two numbers, in this case a and b.
+ * Let's start with the different ways to compare two unknown numbers, in this case a and b.
+ * 
+ * Boolean logic can be resolved just like a math equation. It makes sense for 4*5=20. When programming, however,
+ * we can almost never assume that a value is known. Instead, we'd have to resolve the equation as: int result = a*b;
+ * where a and b represent two unknown numbers. This can also be applied logical expressions. If we consider that
+ * programs interpret the symbol '==' as an operation that determines if two values are equal to each other,
+ * we'd say that 4==5 = FALSE, and 4 == 4 = TRUE. if the two numbers are unknown, the expression may be written as:
+ * boolean result = a==b;. For any problem in this lab, this expression can be written on a single line, as a boolean
+ * expression can be resolved instantly just like a math equation. For instance, the solution to 'isEqual' would be 
+ * the single line return a==b;
  * 
  * Additional Resource if needed: https://www.oreilly.com/library/view/java-for-dummies/9781118239742/a17.html
  */
