@@ -4,10 +4,10 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ComparatorsTest {
-    static Comparators c;
+    static Lab c;
     @BeforeClass
     public static void setUp(){
-        c = new Comparators();
+        c = new Lab();
     }
 
     /**

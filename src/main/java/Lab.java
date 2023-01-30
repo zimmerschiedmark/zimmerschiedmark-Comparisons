@@ -17,7 +17,7 @@
  * You'll need to know more operators to complete the remaining parts of the lab. You can read about all the 
  * boolean comparison operators here: https://www.oreilly.com/library/view/java-for-dummies/9781118239742/a17.html
  */
-public class Comparators {
+public class Lab {
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
